@@ -1,0 +1,15 @@
+.awal {
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin: 15px;
+  }
+  
+  .kolom {
+    padding: 10px;
+  
+  }
+  
+  .submit {
+    padding: 10px 10px 15px 10px;
+  }
