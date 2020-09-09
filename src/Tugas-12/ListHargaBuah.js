@@ -155,20 +155,3 @@ class ListHargaBuah extends Component {
 }
 
 export default ListHargaBuah;
- 15  src/Tugas-12/style.css 
-@@ -0,0 +1,15 @@
-.table {
-    width: 50%;
-    margin: 0 auto;
-    border-style: solid;
-}
-
-.header-row {
-    text-align: center;
-    background-color: rgb(170, 170, 170);
-}
-
-.main-row {
-    text-align: left;
-    background-color: rgb(255, 127, 80);
-} 
