@@ -9,6 +9,7 @@ function App() {
       <FormPembelian />
       <HargaBuah />
       <Timer countdown='101'/>
+	  <ListHargaBuah />
     </div>
   );
 }
