@@ -49,7 +49,7 @@ class Timer extends Component{
         }
         </h1>
           <h1 style={{margin: '2% auto'}}>
-              hitung mundur: {this.state.countdown}
+              hitung mundur: {this.timer}
           </h1>
       </div>
     )
