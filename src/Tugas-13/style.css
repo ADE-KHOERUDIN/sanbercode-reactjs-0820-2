@@ -1,0 +1,19 @@
+div {
+    text-align:center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-style: solid;
+}
+
+tr th {
+	text-align: center;
+    background-color: rgb(170, 170, 170);
+}
+tr td {
+	text-align: left;
+    background-color: rgb(255, 127, 80);
+}
