@@ -96,7 +96,7 @@ const DaftarBuah = () => {
     <>
       <Table dataBuah={dataBuah} onEdit={handleEdit} onDelete={handleDelete} />
 
-      <Form buah={input} onChange={handleChange} onSubmit={handleSubmit} />
+      <Form buah={input} onclickzz={handleChange} onSubmit={handleSubmit} />
     </>
   );
 };
