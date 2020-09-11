@@ -1,20 +1,21 @@
 import React from 'react';
-// import FormPembelian from  './Tugas-9/FormPembelian';
-// import HargaBuah from './Tugas-10/HargaBuah';
-// import Timer from './Tugas-11/Timer';
-// import ListHargaBuah from './Tugas-12/ListHargaBuah';
-// import DataBuah from './Tugas-13/DataBuah';
-import Buah from './Tugas-14/Buah';
+import Routers from './Tugas-15/Routers';
+import { ThemeContextProvider } from './Tugas-15/TemaContext'
+import "./public/style.css";
+import "./Tugas-15/Pencet"
+import Pencet from './Tugas-15/Pencet';
 
 function App() {
   return (
     <div>
-      {/*      
-     <FormPembelian />
+      {/*  <FormPembelian />
      <HargaBuah />
       <Timer countdown='101'/>
-	  <ListHargaBuah /> */}
-	  <Buah />
+    <ListHargaBuah />  */}
+    <ThemeContextProvider>
+	  <Routers />
+    <Pencet />
+    </ThemeContextProvider>
     </div>
   );
 }
